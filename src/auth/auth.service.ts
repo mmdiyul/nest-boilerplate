@@ -18,7 +18,6 @@ export class AuthService {
       relations: ['role', 'position'],
       select: [
         'id',
-        'nip',
         'password',
         'username',
         'email',
